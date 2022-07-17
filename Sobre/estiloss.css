@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("/fontes/Pacifico.ttf");
+}
+@font-face {
+  font-family: "Sigana";
+  src: url("/fontes/Sigana.otf");
+}
+body{
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+}
+button{
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:hover{
+  text-decoration: underline;
+}
+#btn{
+  position: fixed;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  top: 7px;
+  left: 30px;
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.dark-mode{
+  background-color: #111B21;
+  color: darkgrey;
+}
+.dark-mode-n{
+  text-shadow: #111B21;
+}
+.dark-mode-btn{
+  border: 1px solid white;
+  color: white;
+}
+ul{
+  display: flex;
+  width: 100%;
+  z-index: 10;
+  justify-content: center;
+  flex-direction: row;
+  position: sticky;
+  top: 0;
+  background-color: purple;
+  list-style-type: none;
+  overflow: hidden;
+}
+li{
+  justify-content: center;
+}
+li a{
+  color: white;
+  text-align: center;
+  background-color: purple;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: white;
+  color: purple;
+}
+.active{
+  background-color: white;
+  color: purple;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  position: sticky;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+}
+.nome{
+  font-size: 100px;
+  font-weight: normal;
+  font-family: "Sigana";
+  text-align: center;
+}
+.nomeb{
+  position: relative;
+  top: -40px;
+  animation: t 5s infinite;
+  color: purple;
+  font-size: 20px;
+  text-shadow: 1px 1px 0 white, 1px -1px 0 white, -1px 1px 0 white, -1px -1px 0 white,
+   1px 0px 0 white, 0px 1px 0 white, -1px 0px 0 white, 0px -1px 0 white;
+  font-family: "Pacifico";
+  text-align: center;
+}
+.fpd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fp{
+  border: 3px solid purple;
+  animation: foto 5s infinite;
+  top: -20px;
+  border-radius: 50%;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+@keyframes foto {
+  0%: {border: 3px solid violet}
+  25% {border: 3px solid purple}
+  50% {border: 3px solid red}
+  100% {border: 3px solid violet}
+}
+@keyframes t {
+0%: {color: violet}
+25% {color: purple}
+50% {color: red}
+100% {color: violet}
+}
+.sob{
+  text-align: center;
+  font-family: "Pacifico";
+}
+.sobp{
+  position: relative;
+  text-align: center;
+}
+.sobp1{
+  position: relative;
+  white-space: nowrap;
+  top: -230px;
+  padding: 290px;
+  border-radius: 0px;
+  text-overflow: ellipsis;
+}
+.sobp2{
+  position: relative;
+  white-space: nowrap;
+  top: -800px;
+  padding: 290px;
+  border-radius: 0px;
+  text-overflow: ellipsis;
+}
+.sobp3{
+  position: relative;
+  white-space: nowrap;
+  top: -1390px;
+  padding: 290px;
+  border-radius: 0px;
+  text-overflow: ellipsis;
+}
