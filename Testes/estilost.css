@@ -26,8 +26,8 @@ button:hover{
   position: fixed;
   text-align: center;
   color: black;
-  border: 1px solid white;
-  top: 7px;
+  border: 1px solid black;
+  top: 40px;
   left: 30px;
   display: block;
   padding: 8px 10px;
