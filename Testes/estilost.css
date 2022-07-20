@@ -15,7 +15,7 @@ button{
   display: block;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid white;
   background-color: transparent;
   cursor: pointer;
 }
@@ -25,9 +25,10 @@ button:hover{
 #btn{
   position: fixed;
   text-align: center;
-  color: black;
-  border: 1px solid black;
-  top: 40px;
+  color: white;
+  border: 1px solid white;
+  top: 6px;
+  z-index: 20;
   left: 30px;
   display: block;
   padding: 8px 10px;
