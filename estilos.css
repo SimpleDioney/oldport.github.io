@@ -29,7 +29,7 @@ button:hover{
   border: 1px solid white;
   top: 6px;
   z-index: 20;
-  left: 30px;
+  left: 2px;
   display: block;
   padding: 8px 10px;
   text-decoration: none;
@@ -37,6 +37,7 @@ button:hover{
 .dark-mode{
   background-color: #111B21;
   color: darkgrey;
+  /* as */
 }
 .dark-mode-n{
   text-shadow: #111B21;
