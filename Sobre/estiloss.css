@@ -141,9 +141,7 @@ li a:hover:not(.active){
 .sobp1{
   position: relative;
   white-space: nowrap;
-  top: -230px;
-  padding: 290px;
-  border-radius: 0px;
+  text-align: center;
   text-overflow: ellipsis;
 }
 .sobp2{
