@@ -41,8 +41,8 @@ button:hover{
   box-shadow: 0px 6px 7px #b75aa1;
   z-index: 20;
   display: block;
-  width: 50px;
-  height: 60px;
+  width: 45px;
+  height: 55px;
   border-radius: 50%;
   text-decoration: none;
 }
@@ -55,7 +55,8 @@ button:hover{
   text-shadow: #4d2b56;
 }
 .dark-mode-btn{
-  background-color: #4d2b56;
+  background-color: #ff87d5;
+  box-shadow: 0px 6px 7px #b75aa1;
   color: white;
 }
 ul{
