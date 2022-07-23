@@ -83,7 +83,7 @@ li a{
 }
 li a:hover:not(.active){
   background-color: #783e74;
-  color: purple;
+  color: white;
 }
 .active{
   background-color: #783e74;
