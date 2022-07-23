@@ -22,6 +22,20 @@ button{
 button:hover{
   text-decoration: underline;
 }
+.fpd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fp{
+  border: 3px solid purple;
+  animation: foto 5s infinite;
+  top: -20px;
+  border-radius: 50%;
+  display: block;
+  width: 100px;
+  height: 100px;
+}
 #btn{
   position: fixed;
   text-align: center;
