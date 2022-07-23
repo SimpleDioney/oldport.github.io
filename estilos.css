@@ -29,7 +29,8 @@ button:hover{
   border: 1px solid black;
   z-index: 20;
   display: block;
-  height: 2px;
+  width: 12px;
+  height: 8px;
   border-radius: 50%;s
   text-decoration: none;
 }
