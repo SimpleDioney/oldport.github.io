@@ -24,14 +24,13 @@ button:hover{
 }
 #btn{
   position: fixed;
-  text-align: center;
   color: black;
   border: 1px solid black;
   z-index: 20;
   display: block;
-  width: 12px;
-  height: 8px;
-  border-radius: 50%;s
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
   text-decoration: none;
 }
 .dark-mode{
