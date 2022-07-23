@@ -36,7 +36,7 @@ button:hover{
   position: fixed;
   text-align: center;
   left: 20px;
-  top: 600px;
+  top: 580px;
   background-color: #b75aa1;
   box-shadow: 2px #b75aa1;
   z-index: 20;
@@ -66,7 +66,7 @@ ul{
   flex-direction: row;
   position: sticky;
   top: 0;
-  background-color: purple;
+  background-color: #4d2b56;
   list-style-type: none;
   overflow: hidden;
 }
