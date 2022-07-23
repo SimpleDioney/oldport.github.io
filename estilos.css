@@ -38,7 +38,7 @@ button:hover{
   left: 20px;
   top: 580px;
   background-color: #ff87d5;
-  box-shadow: 60px -16px black;
+  box-shadow: 10px 5px 5px #b75aa1;
   z-index: 20;
   display: block;
   width: 50px;
