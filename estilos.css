@@ -55,6 +55,7 @@ button:hover{
   text-shadow: #111B21;
 }
 .dark-mode-btn{
+  background-color: #4d2b56;
   color: white;
 }
 ul{
