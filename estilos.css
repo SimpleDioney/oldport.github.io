@@ -29,7 +29,9 @@ button:hover{
 }
 .fp{
   cursor: pointer;
-  border: 3px solid purple;
+  border: 3px solid violet;
+  background-color: violet;
+  box-shadow: 2px violet;
   animation: foto 5s infinite;
   top: -20px;
   border-radius: 50%;
