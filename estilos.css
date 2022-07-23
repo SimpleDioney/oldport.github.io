@@ -75,17 +75,17 @@ li{
 li a{
   color: white;
   text-align: center;
-  background-color: #ff43b1;;
+  background-color: #ff14eb;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover:not(.active){
-  background-color: #783e74;
+  background-color: #ff9798;
   color: white;
 }
 .active{
-  background-color: #783e74;
+  background-color: #ff9798;
   color: white;
 }
 *{
