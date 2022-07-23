@@ -81,11 +81,11 @@ li a{
   text-decoration: none;
 }
 li a:hover:not(.active){
-  background-color: #ff9798;
+  background-color: #ff43b1;
   color: white;
 }
 .active{
-  background-color: #ff9798;
+  background-color: #ff43b1;
   color: white;
 }
 *{
