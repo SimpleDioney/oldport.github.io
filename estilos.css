@@ -76,18 +76,18 @@ li{
 li a{
   color: white;
   text-align: center;
-  background-color: purple;
+  background-color: #4d2b56;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover:not(.active){
-  background-color: white;
+  background-color: #783e74;
   color: purple;
 }
 .active{
-  background-color: white;
-  color: purple;
+  background-color: #783e74;
+  color: white;
 }
 *{
   margin: 0;
