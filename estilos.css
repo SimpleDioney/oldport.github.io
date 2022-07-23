@@ -23,7 +23,9 @@ button:hover{
   text-decoration: underline;
 }
 #btn{
-  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   border: 1px solid black;
   z-index: 20;
