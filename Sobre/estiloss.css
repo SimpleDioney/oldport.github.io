@@ -22,7 +22,18 @@ button{
 button:hover{
   text-decoration: underline;
 }
-
+#btn{
+  position: fixed;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  top: 6px;
+  z-index: 20;
+  left: 2px;
+  display: block;
+  padding: 8px 10px;
+  text-decoration: none;
+}
 .dark-mode{
   background-color: #111B21;
   color: darkgrey;
