@@ -139,21 +139,20 @@ li a:hover:not(.active){
   text-align: center;
 }
 .sobp1{
-  position: fixed;
+  position: relative;
   white-space: nowrap;
-  text-align: center;
+  left: 50%;
   text-overflow: ellipsis;
 }
 .sobp2{
-  position: fixed;
+  position: relative;
   white-space: nowrap;
-  text-align: center;
+
   text-overflow: ellipsis;
 }
 .sobp3{
-  position: fixed;
+  position: relative;
   white-space: nowrap;
-  text-align: center;
-  top: -17px;
+
   text-overflow: ellipsis;
 }
