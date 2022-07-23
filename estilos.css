@@ -35,8 +35,8 @@ button:hover{
 #btn{
   position: fixed;
   text-align: center;
-  left: 50px;
-  top: 700px;
+  left: 20px;
+  top: 600px;
   background-color: #b75aa1;
   box-shadow: 2px #b75aa1;
   z-index: 20;
