@@ -35,8 +35,7 @@ button:hover{
 #btn{
   position: fixed;
   text-align: center;
-  background-color: violet;
-  border: 1px solid darkviolet;
+  background-color: #b75aa1;
   box-shadow: 2px;
   z-index: 20;
   display: block;
