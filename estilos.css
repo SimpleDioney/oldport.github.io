@@ -21,6 +21,15 @@ body{
 ...
 */
 }
+.dark {
+  --text-white: #e6e6e6;
+  --text-dark: #ffffff;
+
+  --bg-grey-light: #142136;
+  --bg-white: #22395d;
+  --bg-blue-dark: #142136;
+  --bg-indigo: #7577e1;
+}
 button{
   display: block;
   margin: 0 auto;

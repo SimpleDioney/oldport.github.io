@@ -1,8 +1,6 @@
-function darkMode() {
-  const body = document.body
-  body.classList.toggle('dark-mode')
-  const btn = document.querySelector('#btn')
-  btn.classList.toggle('dark-mode-btn')
-  const nomeb = document.querySelector('#nomeb')
-  nomeb.classList.toggle('dark-mode-n')
-}
+//armazenando na máquina do usuario o tema
+localStorage.setItem('theme', 'dark');
+
+//acessado o tema da maquina do usuário
+localStorage.getItem('theme');
+// dark
