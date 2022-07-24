@@ -29,7 +29,6 @@ button:hover{
 }
 .fp2{
   cursor: pointer;
-  animation: foto 5s infinite;
   display: block;
 }
 #btn{
@@ -150,24 +149,6 @@ li a:hover:not(.active){
   position: relative;
   text-align: center;
 }
-/*.sobp1{
-  position: relative;
-  white-space: nowrap;
-  padding-left: 29%;
-  text-overflow: ellipsis;
-}
-.sobp2{
-  position: relative;
-  white-space: nowrap;
-  padding-left: 29%;
-  text-overflow: ellipsis;
-}
-.sobp3{
-  position: relative;
-  white-space: nowrap;
-  padding-left: 29%;
-  text-overflow: ellipsis;
-}*/
 .soba{
   width: 100%;
   display: flex;
