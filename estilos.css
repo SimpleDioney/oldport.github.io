@@ -29,7 +29,6 @@ button:hover{
 }
 .fp{
   cursor: pointer;
-  animation: foto 5s infinite;
   display: block;
 }
 #btn{

@@ -15,35 +15,46 @@ button{
   display: block;
   margin: 0 auto;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid black;
   background-color: transparent;
   cursor: pointer;
 }
 button:hover{
   text-decoration: underline;
 }
+.fpd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fp{
+  cursor: pointer;
+  display: block;
+}
 #btn{
   position: fixed;
   text-align: center;
-  color: white;
-  border: 1px solid white;
-  top: 6px;
+  left: 20px;
+  top: 580px;
+  background-color: #A057D5;
+  box-shadow: 0px 6px 7px #3A1F4D;
   z-index: 20;
-  left: 2px;
-  display: block;
-  padding: 8px 10px;
+  width: 50px;
+  height: 60px;
+  border-radius: 50%;
   text-decoration: none;
 }
 .dark-mode{
   background-color: #111B21;
   color: darkgrey;
+  /* as */
 }
 .dark-mode-n{
-  text-shadow: #111B21;
+  text-shadow: #4d2b56;
 }
 .dark-mode-btn{
-  border: 1px solid white;
-  color: white;
+  background-color: #ff87d5;
+  box-shadow: 0px 6px 7px #b75aa1;
 }
 ul{
   display: flex;
@@ -53,7 +64,7 @@ ul{
   flex-direction: row;
   position: sticky;
   top: 0;
-  background-color: purple;
+  background-color: #8016CD;
   list-style-type: none;
   overflow: hidden;
 }
@@ -63,23 +74,18 @@ li{
 li a{
   color: white;
   text-align: center;
-  background-color: purple;
+  background-color: #8016CD;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover:not(.active){
-  background-color: white;
-  color: purple;
+  background-color: #A057D5;
+  color: white;
 }
 .active{
-  background-color: white;
-  color: purple;
-}
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  background-color: #A057D5;
+  color: white;
 }
 .nav{
   position: sticky;
