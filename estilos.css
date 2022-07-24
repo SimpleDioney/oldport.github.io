@@ -11,6 +11,14 @@ body{
   color: black;
   transition: 0.4s;
 }
+light: {
+  background: 'white',
+  color: 'black',
+},
+dark: {
+  background: '#111B21',
+  color: 'darkgrey',
+}
 button{
   display: block;
   margin: 0 auto;
