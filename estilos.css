@@ -37,8 +37,8 @@ button:hover{
   text-align: center;
   left: 20px;
   top: 580px;
-  background-color: #ff43b1;
-  box-shadow: 0px 6px 7px #b75aa1;
+  background-color: #A057D5;
+  box-shadow: 0px 6px 7px #A057D5;
   z-index: 20;
   width: 50px;
   height: 60px;
@@ -75,17 +75,17 @@ li{
 li a{
   color: white;
   text-align: center;
-  background-color: #ff43b1;
+  background-color: #8016CD;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
 }
 li a:hover:not(.active){
-  background-color: #ff14eb;
+  background-color: #A057D5;
   color: white;
 }
 .active{
-  background-color: #ff14eb;
+  background-color: #A057D5;
   color: white;
 }
 *{
