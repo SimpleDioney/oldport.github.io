@@ -191,14 +191,13 @@ li a:hover:not(.active){
 	color:limegreen;
 	font-family:Arial;
 	font-size:17px;
-	padding:16px 90px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px black;
 }
 .wa:hover {
 	background-color:limegreen;
   color: white;
-  animation: a 4s;
+  animation: a 4s infinite;
   padding:16px 90px;
   box-shadow: 0px 0px 46px -9px black;
 }
