@@ -31,11 +31,9 @@ button:hover{
   cursor: pointer;
   display: block;
 }
-#btn:hover{
-
-}
 #btn{
-  position: relative;
+  position: fixed;
+  text-align: center;
   left: 20px;
   top: 580px;
   background-color: #A057D5;
