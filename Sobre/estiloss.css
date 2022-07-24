@@ -32,10 +32,10 @@ button:hover{
   display: block;
 }
 #btn:hover{
-  background-color: transparent;
+
 }
 #btn{
-  position: fixed;
+  position: relative;
   text-align: center;
   left: 20px;
   top: 580px;
