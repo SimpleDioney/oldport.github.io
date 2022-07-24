@@ -16,6 +16,7 @@ body{
   --bg-white: #ffffff;
   --bg-blue-dark: #142136;
   --bg-indigo: #6366f1;
+  background-color: var(--bg-grey-light);
   transition: 0.4s;
 /*
 ...
