@@ -65,7 +65,7 @@ ul{
   flex-direction: row;
   position: sticky;
   top: 0;
-  background-color: #ff14eb;
+  background-color: #8016CD;
   list-style-type: none;
   overflow: hidden;
 }
@@ -75,7 +75,7 @@ li{
 li a{
   color: white;
   text-align: center;
-  background-color: #ff14eb;
+  background-color: #ff43b1;
   display: block;
   padding: 14px 16px;
   text-decoration: none;
