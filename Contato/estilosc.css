@@ -207,10 +207,8 @@ li a:hover:not(.active){
 	top:1px;
 }
 @keyframes a {
-  from: {
-    padding: 16px 90px;
-  }
-  to: {
-    padding: 20px 94px;
-  }
+  0%: {padding:16px 90px};
+  50%: {padding:17px 91px};
+  100%: {padding:120px 94px;}
+
 }
