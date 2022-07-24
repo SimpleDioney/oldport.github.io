@@ -198,10 +198,19 @@ li a:hover:not(.active){
 .wa:hover {
 	background-color:limegreen;
   color: white;
-  padding:20px 94px;
+  animation: a 4s;
+  padding:16px 90px;
   box-shadow: 0px 0px 46px -9px black;
 }
 .wa:active {
 	position:relative;
 	top:1px;
+}
+@keyframes a {
+  from: {
+    padding: 16px 90px;
+  }
+  to: {
+    padding: 20px 94px;
+  }
 }
